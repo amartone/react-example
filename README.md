@@ -1,1 +1,1 @@
-Learning and playing around with React after using Angular for a while.
+Learning and exploring React after using Angular for a while.
