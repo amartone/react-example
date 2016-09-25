@@ -1,3 +1,23 @@
+var CommentList = React.creatClass({
+	render: function() {
+		return (
+				<div className="commentList">
+				Hello, world! I am a CommentList.
+				</div>
+		);
+	}
+});
+
+var CommentForm = React.createClass({
+	render: function() {
+		return (
+			<div className="commentForm">
+				Hello, world! I am a CommentForm.
+			</div>
+		);
+	}
+});
+
 var CommentBox = React.createClass({
 	render: function(){
 		return(
@@ -5,7 +25,9 @@ var CommentBox = React.createClass({
 			// You can think of these as markers or pieces of data that React knows how to handle.
 			//React is safe. We are not generating HTML strings so XSS protection is the default.
 			<div className="commentBox">
-				Hello, world! I am a CommentBox.
+				<h1>Comments</h1>
+				<CommentList>
+				<CommentForm>
 				</div>
 		);
 	}
